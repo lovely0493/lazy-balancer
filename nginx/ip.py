@@ -72,5 +72,5 @@ def set_firewall():
                         address += i + '.'
                     address += '0.0/16'
 
-            set_internal_firewall(address,internal_port)
-            set_public_firewall(public_port)
+            #set_internal_firewall(address,internal_port)
+            #set_public_firewall(public_port)
