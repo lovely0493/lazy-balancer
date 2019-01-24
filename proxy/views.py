@@ -22,7 +22,7 @@ def view(request):
     else:
         p_config = proxy_config.objects.all()
 
-    NUM_PER_PAGE = 8
+    NUM_PER_PAGE = 50
     paginator = Paginator(p_config, NUM_PER_PAGE)
     page = request.GET.get('page')
 
