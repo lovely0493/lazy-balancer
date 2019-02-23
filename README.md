@@ -40,7 +40,7 @@
 * 克隆代码
 ```
 mkdir -p /app  
-git clone https://github.com/v55448330/lazy-balancer.git /app/lazy_balancer  
+https://gitee.com/chovans_admin/lazy-balancer.git  
 cd /app/lazy_balancer
 ```
 * 卸载 nginx
